@@ -1,0 +1,47 @@
+{
+  "name": "places-x402-mcp",
+  "version": "1.0.0",
+  "description": "X402 MCP Server for Google Places API - Claude Desktop Integration",
+  "type": "module",
+  "bin": {
+    "places-x402-mcp": "index.js"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "tsx index.ts"
+  },
+  "keywords": [
+    "x402",
+    "mcp",
+    "claude-desktop",
+    "google-places",
+    "micropayments",
+    "model-context-protocol"
+  ],
+  "author": "Places API Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/places-x402-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "axios": "^1.12.2",
+    "viem": "^2.37.9",
+    "x402-axios": "^0.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/places-x402-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/places-x402-mcp#readme"
+}
